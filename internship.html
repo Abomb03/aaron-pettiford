@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Creative Production & Interactive Design</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="text-neutral-100 antialiased selection:bg-neutral-800 selection:text-white relative min-h-screen">
+
+    <!-- Background Video -->
+    <div class="fixed inset-0 -z-50 w-full h-full overflow-hidden pointer-events-none">
+        <div class="absolute inset-0 bg-neutral-950/80 z-10 backdrop-blur-layer"></div>
+        <video 
+            autoplay 
+            loop 
+            muted 
+            playsinline 
+            webkit-playsinline
+            class="w-full h-full object-cover transform scale-[1.01]"
+        >
+            <source src="background-render.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <!-- Navigation Header -->
+    <header class="sticky top-0 z-50 header-blur bg-neutral-950/40 border-b border-neutral-900/50">
+        <div class="max-w-6xl mx-auto px-6 py-3 flex items-center justify-between">
+            <a class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+                <img src="Portfolio Iocn.png" alt="Portfolio Logo" class="h-12 w-auto object-contain">
+            </a>
+            <nav class="flex items-center gap-6 text-xs text-neutral-400 font-medium">
+                <a href="index.html" class="hover:text-neutral-200 transition-colors">Home</a>
+                <a href="projects.html" class="text-neutral-200 transition-colors">Projects</a>
+                <a href="internship.html" class="text-neutral-200 transition-colors">Internship</a>
+                <a href="about.html" class="hover:text-neutral-200 transition-colors">About</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="max-w-6xl mx-auto px-6 pt-12">
+        <h1 class="text-8xl font-light tracking-wider text-neutral-200 mb-3 font-['Andes']">Internship</h1>
+        <p class="text-neutral-300 mb-6 max-w-2xl">
+            I initially worked at Dixit Global Tech as a Graphic Design, and Motion Graphics Intern. During my time there, I made 3 Instagram posts for them, and made a Motion Graphics Video. The objective of the internship was to not only gain experience, but to help them with their objective by trying to spread awareness, as well as gain enough people.
+        </p>
+    </div>
+
+    <!-- Main Content Area -->
+    <main class="max-w-6xl mx-auto px-6 py-12">
+        <h1 class="text-4xl font-light tracking-wider text-neutral-200 mb-3">Social Media Posts</h1>
+        <p class="text-neutral-300 mb-6 max-w-2xl">
+            For these, I was tasked to make 3 Social Media posts. I had to use images from Pinterest and Dixit Global Tech, as well as it's colors to represent the company.
+        </p>
+        
+        <div class="flex flex-col sm:flex-row gap-4 items-center justify-start mb-16">
+            <img src="images/internship-post-1.png" alt="Internship Instagram post 1" class="w-full sm:w-1/3 h-auto rounded-lg object-cover">
+            <img src="images/internship-post-2.png" alt="Internship Instagram post 2" class="w-full sm:w-1/3 h-auto rounded-lg object-cover">
+            <img src="images/internship-post-3.png" alt="Internship Instagram post 3" class="w-full sm:w-1/3 h-auto rounded-lg object-cover">
+        </div>
+
+        <h1 class="text-4xl font-light tracking-wider text-neutral-200 mb-6">Motion Video</h1>
+        
+        <!-- Side-by-Side Flex Container -->
+        <div class="flex flex-col md:flex-row gap-8 items-start justify-between">
+            
+            <!-- Description Text (Left on Desktop) -->
+            <p class="text-neutral-300 max-w-xl md:w-1/2 leading-relaxed">
+                I was tasked to make a Motion Graphics Video, which talked about deadlines and how to satisfy client's needs. The video is about 40 seconds and uses AI Voice Over.</p>
+            
+            <!-- Video Container (Right on Desktop) -->
+            <div class="w-full md:w-1/2 aspect-video rounded-lg overflow-hidden border border-neutral-900/50 shadow-xl">
+                <iframe 
+                    class="w-full h-full" 
+                    src="https://www.youtube.com/embed/O4j457eSoOQ" 
+                    title="ABO-X03 Animated Tech Demo" 
+                    frameborder="0" 
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                    allowfullscreen>
+                </iframe>
+            </div>
+            
+        </div>
+    </main>
+        <footer class="border-t border-neutral-900 bg-neutral-950/40 backdrop-blur-sm mt-20 text-neutral-600 text-[11px] font-medium py-10 relative z-20">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="flex items-center justify-start gap-4 mb-4">
+                <a href="https://www.linkedin.com/in/aaron-pettiford-3489a1343/" target="_blank" rel="noopener noreferrer" class="transform transition-transform duration-300 hover:scale-110 hover:opacity-90">
+                    <img src="images/LinkedIn_icon.png" alt="LinkedIn" class="h-10 w-10 object-contain rounded-md">
+                </a>
+                <a href="https://www.instagram.com/artbomb_x?igsh=MXMyaWtsOXFzd2ZwMA==&utm_source=qr" target="_blank" rel="noopener noreferrer" class="transform transition-transform duration-300 hover:scale-110 hover:opacity-90">
+                    <img src="images/Instagram_icon.png" alt="Instagram" class="h-10 w-10 object-contain rounded-md">
+                </a>
+            </div>
+            <div class="text-center w-full border-t border-neutral-900/30 pt-4">
+                © 2026 Aaron Pettiford
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>

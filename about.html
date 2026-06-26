@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Projects</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="text-neutral-100 antialiased selection:bg-neutral-800 selection:text-white relative min-h-screen">
+
+    <div class="fixed inset-0 -z-50 w-full h-full overflow-hidden pointer-events-none">
+        <div class="absolute inset-0 bg-neutral-950/80 z-10 backdrop-blur-layer"></div>
+        <video 
+            autoplay 
+            loop 
+            muted 
+            playsinline 
+            webkit-playsinline
+            class="w-full h-full object-cover transform scale-[1.01]"
+        >
+            <source src="background-render.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <header class="sticky top-0 z-50 header-blur bg-neutral-950/40 border-b border-neutral-900/50">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+            <a href="index.html" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+                <img src="Portfolio Iocn.png" alt="Portfolio Logo" class="h-8 w-auto object-contain">
+            </a>
+            <nav class="flex items-center gap-6 text-xs text-neutral-400 font-medium tracking-wider">
+                <a href="index.html" class="hover:text-neutral-200 transition-colors">Home</a>
+                <a href="projects.html" class="text-neutral-200 transition-colors">Projects</a>
+                <a href="internship.html" class="text-neutral-200 transition-colors">Internship</a>
+                <a href="about.html" class="hover:text-neutral-200 transition-colors">About</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-6 pt-16 relative z-20">
+        
+        <div id="hero-text" class="opacity-0 transition-opacity duration-1000 ease-out mb-16">
+            <h1 style="font-family: 'Andes', sans-serif;" class="text-8xl font-light tracking-wider text-neutral-200 mb-3">About Me</h1>
+        </div>
+
+        <!-- FEATURED SENIOR THESIS -->
+        <section class="mb-8">
+            <div class="border border-neutral-900/60 bg-neutral-950/30 rounded-xl overflow-hidden backdrop-blur-sm p-6 lg:p-8">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+                    
+                    <div class="lg:col-span-7 relative group">
+                        <img src="images/meattcnj.png" alt="image description">
+                    </div>
+
+                    <div class="lg:col-span-5 flex flex-col justify-center">
+                        <p class="text-neutral-400 text-sm leading-relaxed mb-6 font-light">I’m a designer from Ewing, New Jersey. My passion for creativity and technology started early on in life. When I was a kid, I used to be intrigued with every bit of digital media, game and graphic design. I also loved computers as I would always use them a lot, and see how they perform. With all those things revolving around me, gave me my purpose. Of being a tech savvy, and multidisciplinary designer where I can join in the tech industry. It also helped the kind of career I want for the future moving forward. This also became a passion for me ever since that point on. I'm glad to say that these have all shaped up my future and who I am.<br></p>
+                        
+                        <div class="flex flex-wrap gap-2 mb-6">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- CREATIVE PIPELINE -->
+
+        <hr class="border-neutral-900/60 my-12">
+
+        <!-- COLLEGE PROJECTS SECTION -->
+        <section class="mb-20">
+        </section>
+
+        <hr class="border-neutral-900/60 my-12">
+
+        <!-- PERSONAL WORK SECTION -->
+        <section class="mb-20">
+            
+        </section>
+
+    </main>
+
+    <footer class="border-t border-neutral-900 bg-neutral-950/40 backdrop-blur-sm mt-20 text-neutral-600 text-[11px] font-medium py-10 relative z-20">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="flex items-center justify-start gap-4 mb-4">
+                <a href="https://www.linkedin.com/in/aaron-pettiford-3489a1343/" target="_blank" rel="noopener noreferrer" class="transform transition-transform duration-300 hover:scale-110 hover:opacity-90">
+                    <img src="images/LinkedIn_icon.png" alt="LinkedIn" class="h-10 w-10 object-contain rounded-md">
+                </a>
+                <a href="https://www.instagram.com/artbomb_x?igsh=MXMyaWtsOXFzd2ZwMA==&utm_source=qr" target="_blank" rel="noopener noreferrer" class="transform transition-transform duration-300 hover:scale-110 hover:opacity-90">
+                    <img src="images/Instagram_icon.png" alt="Instagram" class="h-10 w-10 object-contain rounded-md">
+                </a>
+            </div>
+            <div class="text-center w-full border-t border-neutral-900/30 pt-4">
+                © 2026 Aaron Pettiford
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const heroText = document.getElementById('hero-text');
+            
+            setTimeout(() => {
+                heroText.classList.remove('opacity-0');
+                heroText.classList.add('opacity-100');
+            }, 50);
+        });
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Creative Production & Interactive Design</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="text-neutral-100 antialiased selection:bg-neutral-800 selection:text-white relative min-h-screen">
+
+    <div class="fixed inset-0 -z-50 w-full h-full overflow-hidden pointer-events-none">
+        <div class="absolute inset-0 bg-neutral-950/80 z-10 backdrop-blur-layer"></div>
+        <video 
+            autoplay 
+            loop 
+            muted 
+            playsinline 
+            webkit-playsinline
+            class="w-full h-full object-cover transform scale-[1.01]"
+        >
+            <source src="background-render.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <header class="sticky top-0 z-50 header-blur bg-neutral-950/40 border-b border-neutral-900/50">
+        <div class="max-w-6xl mx-auto px-6 py-3 flex items-center justify-between">
+            
+            <a class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+                <img src="Portfolio Iocn.png" alt="Portfolio Logo" class="h-12 w-auto object-contain">
+            </a>
+            
+            <nav class="flex items-center gap-6 text-xs text-neutral-400 font-medium">
+                <a href="home.html" class="hover:text-neutral-200 transition-colors">Home</a>
+                <a href="projects.html" class="text-neutral-200 transition-colors">Projects</a>
+                <a href="internship.html" class="text-neutral-200 transition-colors">Internship</a>
+                <a href="about.html" class="hover:text-neutral-200 transition-colors">About</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-6 relative z-20">
+
+        <section class="pt-6 pb-12 md:pt-12 md:pb-24 flex flex-col md:flex-row items-center justify-between gap-8">
+            
+            <div class="max-w-2xl order-2 md:order-1">
+                <span class="text-xs font-bold uppercase tracking-widest text-neutral-500 mb-3 block">Graphic Designer / Multimedia designer</span>
+                <h1 id="hero-text" class="font-['Andes'] text-50xl md:text-8xl font-bold tracking-tight leading-[1.1] text-white mb-6 opacity-0 transition-opacity duration-[1000ms] ease-out">
+                    Aaron Pettiford
+                </h1>
+                <p class="text-lg md:text-xl text-neutral-400 font-light leading-relaxed">
+                    An Interactive Multimedia creator specializing in 3D optimization, physical computing frameworks, and custom front-end logic. Building seamless, asset-optimized digital pipelines from design token to runtime engine execution.
+                </p>
+            </div>
+
+            <div class="flex-shrink-0 order-1 md:order-2 w-full md:w-auto flex justify-center">
+                <div class="relative group">
+                    <div class="absolute -inset-1 rounded-[2rem] bg-gradient-to-r from-neutral-800 to-neutral-950 opacity-30 blur-lg group-hover:opacity-50 transition duration-500"></div>
+                    <img 
+                        src="images/Pettiford_A_Portrait.jpg" 
+                        alt="Aaron Pettiford Vector Portrait" 
+                        class="hero-portrait relative w-64 h-auto md:w-80 rounded-3xl border border-neutral-900/60 shadow-2xl transition-all-smooth hover:scale-[1.015]"
+                    >
+                </div>
+            </div>
+            
+        </section>
+
+        <hr class="border-neutral-900/60 my-0" />
+
+        <section id="disciplines" class="py-20">
+            <div class="mb-12">
+                <h2 class="text-2xl md:text-3xl font-bold tracking-tight text-white mb-2">Core Disciplines &amp; Experience</h2>
+                <p class="text-sm text-neutral-400">Areas of core focus and technical capability.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-start">
+                
+                <div class="group bg-neutral-950/30 backdrop-blur-sm border border-neutral-900 rounded-3xl p-8 flex flex-col sm:flex-row gap-6 justify-between transition-all duration-500 ease-in-out cursor-pointer overflow-hidden">
+                    
+                    <div class="flex-shrink-0 w-16 h-16 sm:w-20 sm:h-20 rounded-2xl bg-white p-2 flex items-center justify-center overflow-hidden shadow-md">
+                        <img 
+                            src="images/Dixit Global Tech Icon.jpg" 
+                            alt="Dixit Global Tech Logo" 
+                            class="w-full h-full object-contain"
+                        >
+                    </div>
+
+                    <div class="flex-1">
+                        <h3 class="text-xl font-semibold text-white tracking-tight transition-colors duration-300 group-hover:text-neutral-200">
+                            Dixit Global Tech IT Solutions Private Ltd., Remote
+                        </h3>
+                        <p class="text-neutral-400 text-sm mt-0.5">Graphic Design &amp; Motion Graphics Intern</p>
+                        <a href="internship.html" class="text-xs text-neutral-400 hover:text-white transition-colors mt-2 inline-block underline decoration-neutral-800 underline-offset-4">View Case Study</a>
+                        
+                        <div class="max-h-0 opacity-0 pointer-events-none scale-[0.98] transition-all duration-500 ease-in-out group-hover:max-h-48 group-hover:opacity-100 group-hover:pointer-events-auto group-hover:scale-100">
+                            <p class="text-sm text-neutral-400 leading-relaxed font-light mt-4 border-t border-neutral-900/50 pt-4">
+                                I joined this company as an intern from January to February as an intern where I collaborated with the leader on certain tasks such as making Instagram Posts, and a Motion Video.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="group bg-neutral-950/30 backdrop-blur-sm border border-neutral-900 rounded-3xl p-8 flex flex-col sm:flex-row gap-6 justify-between transition-all duration-500 ease-in-out cursor-pointer overflow-hidden">
+                    
+                    <div class="flex-shrink-0 w-16 h-16 sm:w-20 sm:h-20 rounded-2xl p-2 flex items-center justify-center overflow-hidden shadow-md">
+                        <img 
+                            src="images/Projects Icon White.png" 
+                            alt="Dixit Global Tech Logo" 
+                            class="w-full h-full object-contain"
+                        >
+                    </div>
+
+                    <div class="flex-1">
+                        <h3 class="text-xl font-semibold text-white tracking-tight transition-colors duration-300 group-hover:text-neutral-200">
+                            Projects</h3>
+                        <p class="text-neutral-400 text-sm mt-0.5">Graphic Design &amp; Multimedia Design</p>
+                        <a href="projects.html" class="text-xs text-neutral-400 hover:text-white transition-colors mt-2 inline-block underline decoration-neutral-800 underline-offset-4">View Projects</a>
+                        
+                        <div class="max-h-0 opacity-0 pointer-events-none scale-[0.98] transition-all duration-500 ease-in-out group-hover:max-h-48 group-hover:opacity-100 group-hover:pointer-events-auto group-hover:scale-100">
+                            <p class="text-sm text-neutral-400 leading-relaxed font-light mt-4 border-t border-neutral-900/50 pt-4">Take a look at all the projects I did during my time as a college student, as well as personal works too!</p>
+                        </div>
+                    </div>
+                </div>
+                <p>Look at Resume for more insight</p>
+                
+
+            </div>
+        </section>
+
+        <hr class="border-neutral-900/60 my-0" />
+
+        <section id="about" class="py-20">
+            <div class="mb-12">
+                <h2 class="text-2xl md:text-3xl font-bold tracking-tight text-white mb-2">Creative Philosophy</h2>
+                <p class="text-sm text-neutral-400">The core mindset driving the technical execution.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12 text-left items-start">
+                <div>
+                    <div class="mb-8">
+                        <h3 class="text-base font-semibold text-white mb-2">Influence &amp; Motivation</h3>
+                        <p class="text-xs text-neutral-400 font-light leading-relaxed">
+                            Every micro-interaction, frame, or structural element should serve a definitive narrative purpose. Visual styling is secondary to clear, precise functional intent.
+                        </p>
+                    </div>
+
+                    <div>
+                        <h3 class="text-base font-semibold text-white mb-2">Technical Expertise</h3>
+                        <p class="text-xs text-neutral-400 font-light leading-relaxed">
+                            Great design isn't individual elements thrown together; it's a modular, deeply integrated ecosystem where asset groups, design tokens, and logic modules operate synchronously.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="flex justify-center md:justify-end">
+                    <img src="images/adobe03.gif" alt="image description" class="w-full max-w-sm object-cover">
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="border-t border-neutral-900 bg-neutral-950/40 backdrop-blur-sm mt-20 text-neutral-600 text-[11px] font-medium py-10 relative z-20">
+        <div class="max-w-6xl mx-auto px-6">
+            <!-- Social Icons Row (Aligned Left) -->
+            <div class="flex items-center justify-start gap-4 mb-4">
+                <a href="https://www.linkedin.com/in/aaron-pettiford-3489a1343/" target="_blank" rel="noopener noreferrer" class="transform transition-transform duration-300 hover:scale-110 hover:opacity-90">
+                    <img src="images/LinkedIn_icon.png" alt="LinkedIn" class="h-10 w-10 object-contain rounded-md">
+                </a>
+                <a href="https://www.instagram.com/artbomb_x?igsh=MXMyaWtsOXFzd2ZwMA==&utm_source=qr" target="_blank" rel="noopener noreferrer" class="transform transition-transform duration-300 hover:scale-110 hover:opacity-90">
+                    <img src="images/Instagram_icon.png" alt="Instagram" class="h-10 w-10 object-contain rounded-md">
+                </a>
+            </div>
+            <!-- Copyright Row (Aligned Center) -->
+            <div class="text-center w-full border-t border-neutral-900/30 pt-4">
+                © 2026 Aaron Pettiford
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const heroText = document.getElementById('hero-text');
+            
+            setTimeout(() => {
+                heroText.classList.remove('opacity-0');
+                heroText.classList.add('opacity-100');
+            }, 50);
+
+            const videoElement = document.getElementById('thesis-video');
+            const fullscreenBtn = document.getElementById('fullscreen-btn');
+
+            if (videoElement && fullscreenBtn) {
+                fullscreenBtn.addEventListener('click', () => {
+                    if (videoElement.requestFullscreen) {
+                        videoElement.requestFullscreen();
+                    } else if (videoElement.webkitRequestFullscreen) {
+                        videoElement.webkitRequestFullscreen();
+                    } else if (videoElement.msRequestFullscreen) {
+                        videoElement.msRequestFullscreen();
+                    }
+                });
+            }
+        });
+    </script>
+
+</body>
+</html>

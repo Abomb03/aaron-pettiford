@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Projects</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="text-neutral-100 antialiased selection:bg-neutral-800 selection:text-white relative min-h-screen">
+
+    <div class="fixed inset-0 -z-50 w-full h-full overflow-hidden pointer-events-none">
+        <div class="absolute inset-0 bg-neutral-950/80 z-10 backdrop-blur-layer"></div>
+        <video 
+            autoplay 
+            loop 
+            muted 
+            playsinline 
+            webkit-playsinline
+            class="w-full h-full object-cover transform scale-[1.01]"
+        >
+            <source src="background-render.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <header class="sticky top-0 z-50 header-blur bg-neutral-950/40 border-b border-neutral-900/50">
+        <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+            <a href="index.html" class="flex items-center gap-3 hover:opacity-80 transition-opacity">
+                <img src="Portfolio Iocn.png" alt="Portfolio Logo" class="h-8 w-auto object-contain">
+            </a>
+            <nav class="flex items-center gap-6 text-xs text-neutral-400 font-medium tracking-wider">
+                <a href="index.html" class="hover:text-neutral-200 transition-colors">Home</a>
+                <a href="projects.html" class="text-neutral-200 transition-colors">Projects</a>
+                <a href="internship.html" class="text-neutral-200 transition-colors">Internship</a>
+                <a href="about.html" class="hover:text-neutral-200 transition-colors">About</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-6 pt-16 relative z-20">
+        
+        <div id="hero-text" class="opacity-0 transition-opacity duration-1000 ease-out mb-16">
+            <h1 style="font-family: 'Andes', sans-serif;" class="text-8xl font-light tracking-wider text-neutral-200 mb-3">Projects</h1>
+            <p class="text-xs text-neutral-500 uppercase tracking-widest">What you see here is a collection of my finest and strongest works I've did throughout my college years and free time.</p>
+        </div>
+
+        <!-- FEATURED SENIOR THESIS -->
+        <section class="mb-8">
+            <div class="border border-neutral-900/60 bg-neutral-950/30 rounded-xl overflow-hidden backdrop-blur-sm p-6 lg:p-8">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+                    
+                    <div class="lg:col-span-7 relative group">
+                        <div class="aspect-video w-full bg-neutral-900 rounded-lg overflow-hidden border border-neutral-800/40 relative">
+                            <iframe class="w-full h-full" src="https://www.youtube.com/embed/mksMHfRcs20?rel=0" title="ABO-X03 Animated Tech Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+                        </div>
+                    </div>
+
+                    <div class="lg:col-span-5 flex flex-col justify-center">
+                        <span class="text-[10px] font-bold tracking-widest text-neutral-500 uppercase mb-2">Senior Thesis</span>
+                        <img src="images/aaron-pettiford-abo-x030303-logo.png" alt="ABO-X03 Logo" class="mb-4">
+                        <p class="text-neutral-400 text-sm leading-relaxed mb-6 font-light">
+                            ABO-X030303 (Abreviated as ABOX03 cubed) is a tech demo film I created using various programs such as Adobe Creative Suite (Photoshop, Illustrator, After Effects, and Premiere Pro) and Autodesk Maya to make this masterpiece possible. What's presented here is a combination of animations such as 2D and 3D styles, all in one film.
+                        </p>
+                        
+                        <div class="flex flex-wrap gap-2 mb-6">
+                            <span class="text-[10px] bg-neutral-900/60 border border-neutral-800 text-neutral-400 px-2.5 py-1 rounded">Autodesk Maya</span>
+                            <span class="text-[10px] bg-neutral-900/60 border border-neutral-800 text-neutral-400 px-2.5 py-1 rounded">Adobe Creative Suite</span>
+                            <span class="text-[10px] bg-neutral-900/60 border border-neutral-800 text-neutral-400 px-2.5 py-1 rounded">Motion Graphics</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- CREATIVE PIPELINE -->
+        <section class="mb-20">
+            <div class="border border-neutral-900/40 bg-neutral-950/15 rounded-xl backdrop-blur-sm p-6 lg:p-8">
+                <span class="text-[10px] font-bold tracking-widest text-neutral-500 uppercase mb-4 block">Creative Pipeline</span>
+                <h3 class="text-lg font-normal text-neutral-300 tracking-wide mb-6">The Process Behind the Demo</h3>
+                
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                    <div class="border border-neutral-900/40 bg-neutral-950/40 p-5 rounded-lg flex flex-col justify-between">
+                        <div>
+                            <div class="text-xs font-mono text-neutral-600 mb-2">01 / CONCEPT &amp; ASSETS</div>
+                            <p class="text-neutral-400 text-xs leading-relaxed font-light">I built inspiration for this project through variousmedia such as animated films and video games for this projects. Mostly media from the 80s - 2000s in terms of animation and 3D modeling. The 2D Assets for the Pistol Sequence were created in Adobe Illustrator with a few layers into one composition, so that I could animate it. Some and rest of the animated assets for the sequences are <b>images </b>and created originally in After Effects. The Logo was made from Illustrator by masking each texture while making the letters. I installed custom fonts in preparation for this project, and even added motion blur effects to them, and 3D animation. For the 3D sequences, I used models off of SketchFab, and even made models of my own, such as the bikes. For some models, I started out as a cube and then extruded and smoothed them out to create an entirely new mesh.&nbsp;</p>
+                        </div>
+                        <div class="grid grid-cols-3 gap-2 mt-4"></div>
+                    </div>
+
+                    <div class="border border-neutral-900/40 bg-neutral-950/40 p-5 rounded-lg">
+                        <div class="text-xs font-mono text-neutral-600 mb-2">02 / 3D MODELING &amp; ANIMATION</div>
+                        <p class="text-neutral-400 text-xs leading-relaxed font-light">3D Modeling: Before I modeled out the 3D Models for the Bikes, I had to come up with some blueprints. In order to flesh them out and bring them to life, I asked Gemini to look at my sketches and blueprints to show me what they would look like in 3D. At the same time, I renovated it to make it look like I did the design myself. I took inspiration from games and films such as Akira, Shadow the Hedgehog bike, and Tron, and then assimilated the game consoles to create something original.</p>
+                        <p class="text-neutral-400 text-xs leading-relaxed font-light mt-2">Animation:&nbsp;</p>
+                    </div>
+
+                    <div class="border border-neutral-900/40 bg-neutral-950/40 p-5 rounded-lg">
+                        <div class="text-xs font-mono text-neutral-600 mb-2">03 / COMPOSITING &amp; EDIT</div>
+                        <p class="text-neutral-400 text-xs leading-relaxed font-light">After Effects: I used After Effects for not only Motion Graphics and Animation, but also had used it for rendering the movie which consited of compliations with each one having an animation, fade in/out transition, and other effects. I had also used it to add VFX to the 3D Animation segment, where my PC Bike is doing the Akira Bike Slide with blue thunder effects. Another instance I used After Effects for compositioning was to make a GIF for a digital billboard for my 3D Digital City Segment as animated textures for Autodesk Maya to better convey NYC and Tokyo. Lastly, I used it to add a staff roll to credit what's mine and what isn't mine to avoid copyright infringment, as well as plagirism.<br><br>Premiere Pro: Similar to After Effects, I had used Premiere Pro to make animated textures for Autodesk Maya, and then exporting them. I also used it to export the final and last version of my tech demo film.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <p class="mt-6 mb-4 text-sm font-light text-neutral-300">FUN FACT: Did you know that I made my PC Bike to the Akira Bike slide, which is a popular trend? Before the climax of the 3D Segment, I decided to do something kinda special.</p>
+            
+            <div class="flex flex-col sm:flex-row gap-4 items-center justify-center">
+                <img src="images/akira-bike-slide.gif" alt="Akira Bike Slide" class="w-full sm:w-1/2 h-48 md:h-64 object-cover rounded-lg border border-neutral-900/40">
+                <img src="images/akira-kaneda.gif" alt="Akira Kaneda" class="w-full sm:w-1/2 h-48 md:h-64 object-cover rounded-lg border border-neutral-900/40">
+            </div>
+        </section>
+
+        <hr class="border-neutral-900/60 my-12">
+
+        <!-- COLLEGE PROJECTS SECTION -->
+        <section class="mb-20">
+            <h1 class="text-5xl font-light tracking-wider text-neutral-200 mb-6">College Projects</h1>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                
+                <!-- Left Grid Segment -->
+                <div class="border border-neutral-900/40 bg-neutral-950/20 rounded-xl overflow-hidden backdrop-blur-sm flex flex-col">
+                    <div class="aspect-video w-full bg-transparent overflow-hidden relative border-b border-neutral-900/40 p-2">
+                        <img src="images/IICT_Plan_PSD.png" alt="IICT Plan" class="w-full h-full object-contain opacity-80">
+                    </div>
+                    <div class="p-6 flex flex-col flex-grow border-b border-neutral-900/20">
+                        <span class="text-[9px] font-bold tracking-widest text-neutral-500 uppercase mb-1.5"><span style="letter-spacing: 0.9px;">2025</span></span>
+                        <h3 class="text-lg font-medium text-neutral-300 mb-2">IICT (If It Could Talk) Plan</h3>
+                        <p class="text-neutral-400 text-xs leading-relaxed font-light mb-4 flex-grow">
+                            <b>This piece explores the symbolism, mythology, and philosophical depth behind the Star of David, a central emblem in Judaism and Israeli identity. The artwork reimagines the Star as a monument surrounded by various representations of its meanings throughout history—from the Red Star of David and the Flag of Israel to philosophical interpretations inspired by Rosenzweig’s ideas. The Hebrew inscription “באלוהים אנו בוטחים” (“In God We Trust”) reinforces the spiritual and cultural connection between faith, humanity, and the divine. I used Maya for 3D Modeling and Rendering, Illustrator for a few assets, and Photoshop for adding the text and images.</b>
+                        </p>
+                        <div class="flex flex-wrap gap-1.5 mt-auto">
+                            <span class="text-[9px] bg-neutral-900/40 border border-neutral-800/60 text-neutral-400 px-2 py-0.5 rounded">Autodesk Maya</span>
+                            <span class="text-[9px] bg-neutral-900/40 border border-neutral-800/60 text-neutral-400 px-2 py-0.5 rounded">Adobe Photoshop</span>
+                            <span class="text-[9px] bg-neutral-900/40 border border-neutral-800/60 text-neutral-400 px-2 py-0.5 rounded">Adobe Illustrator</span>
+                        </div>
+                    </div>
+                    
+                    <div class="p-6 flex flex-col flex-grow border-b border-neutral-900/20">
+                        <span class="text-[9px] font-bold tracking-widest text-neutral-500 uppercase mb-1.5"><span style="letter-spacing: 0.9px;">2024</span></span>
+                        <h3 class="text-lg font-medium text-neutral-300 mb-2">Digital Portraits &amp; Color Variations</h3>
+                        <img src="images/pettiford-a-portrait.jpg" alt="image description">
+                        <img src="images/pettiford-a-color-variations.jpg" alt="image description">
+                        <p class="text-neutral-400 text-xs leading-relaxed font-light mb-4 flex-grow">
+                            <b>For this project, I was tasked to make a digital portrait of my favorite selfie or portrait. Similar for the grayscale portrait, I chose one of my favorite selfies from High School back in 2018 because of how aesthetic it looks. For this, I used both Illustrator and Photoshop. I used Illustrator for making the shapes and portrait, while I used Photoshop for different color variations. I did my absolute best to replicate it with my artistic skills. The colors are vibrant, and the shapes do a good job imitating the selfie I took.</b>
+                        </p>
+                        <div class="flex flex-wrap gap-1.5 mt-auto">
+                            <span class="text-[9px] bg-neutral-900/40 border border-neutral-800/60 text-neutral-400 px-2 py-0.5 rounded">Adobe Photoshop</span>
+                            <span class="text-[9px] bg-neutral-900/40 border border-neutral-800/60 text-neutral-400 px-2 py-0.5 rounded">Adobe Illustrator</span>
+                        </div>
+                    </div>
+
+                    <div class="p-6 flex flex-col flex-grow border-b border-neutral-900/20">
+                        <span class="text-[9px] font-bold tracking-widest text-neutral-500 uppercase mb-1.5"><span style="letter-spacing: 0.9px;">2024</span></span>
+                        <h3 class="text-lg font-medium text-neutral-300 mb-2">Digital Collage</h3>
+                        <img src="images/pettiford-a-digitalcollage-final.jpg" alt="image description">
+                        <p class="text-neutral-400 text-xs leading-relaxed font-light mb-4 flex-grow">
+                            <b>For this project, we were tasked to make a digital collage by choosing one of our favorite artists, images that related to him/her and add a message. For this, I chose Michael Jackson because I can find lots of things that relate to him that has to do with nature, and globally. Most of these images are from the internet, while the two ones with the messages were by me. Techniques I used were distortion and warping to make it fit.</b>
+                        </p>
+                        <div class="flex flex-wrap gap-1.5 mt-auto">
+                            <span class="text-[9px] bg-neutral-900/40 border border-neutral-800/60 text-neutral-400 px-2 py-0.5 rounded">Adobe Photoshop</span>
+                        </div>
+                    </div>
+
+                    <div class="p-6 flex flex-col flex-grow border-b border-neutral-900/20">
+                        <span class="text-[9px] font-bold tracking-widest text-neutral-500 uppercase mb-1.5"><span style="letter-spacing: 0.9px;">2024</span></span>
+                        <h3 class="text-lg font-medium text-neutral-300 mb-2">Animated GIF</h3>
+                        <img src="images/pettiforda-animated-gif-banner.gif" alt="image description">
+                        <p class="text-neutral-400 text-xs leading-relaxed font-light mb-4 flex-grow">
+                            <b>This right here is a short animated gif of a Falcon diving off-screen after ascending to the sky. I made this using Photoshop, using a lot of layers to make framed animations.</b>
+                        </p>
+                        <div class="flex flex-wrap gap-1.5 mt-auto">
+                            <span class="text-[9px] bg-neutral-900/40 border border-neutral-800/60 text-neutral-400 px-2 py-0.5 rounded">Adobe Photoshop</span>
+                        </div>
+                    </div>
+
+                    <div class="p-6 flex flex-col flex-grow">
+                        <span class="text-[9px] font-bold tracking-widest text-neutral-500 uppercase mb-1.5"><span style="letter-spacing: 0.9px;">2024</span></span>
+                        <h3 class="text-lg font-medium text-neutral-300 mb-2">
+                            <img src="images/BouncingBall.gif" alt="image description">Bouncing Ball</h3>
+                        <p class="text-neutral-400 text-xs leading-relaxed font-light mb-4 flex-grow">
+                            <b>For this project in my animation class, we were tasked to make a a short film of a ball that appears to be a creature in a obstacle. In it, he's jumping around the obstacle hopping on blocks and when he completes the obstacle, he does a little dance out of excitement and enjoyment! I rendered out every frame image in Maya and then I put them all together as a mp4 in Premiere Pro.</b>
+                        </p>
+                        <div class="flex flex-wrap gap-1.5 mt-auto">
+                            <span class="text-[9px] bg-neutral-900/40 border border-neutral-800/60 text-neutral-400 px-2 py-0.5 rounded">Autodesk Maya</span>
+                            <span class="text-[9px] bg-neutral-900/40 border border-neutral-800/60 text-neutral-400 px-2 py-0.5 rounded">Adobe Premiere PRo</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Grid Segment -->
+                <div class="border border-neutral-900/40 bg-neutral-950/20 rounded-xl overflow-hidden backdrop-blur-sm flex flex-col">
+                    <div class="aspect-video w-full bg-transparent overflow-hidden relative border-b border-neutral-900/40">
+                        <iframe class="w-full h-full" src="https://www.youtube.com/embed/Rox88rngDTo?rel=0" title="Secret Colors of Lives Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+                    </div>
+                    <div class="p-6 flex flex-col flex-grow border-b border-neutral-900/20">
+                        <span class="text-[9px] font-bold tracking-widest text-neutral-500 uppercase mb-1.5">2024</span>
+                        <h3 class="text-lg font-medium text-neutral-300 mb-2">Secret Colors of Lives</h3>
+                        <p class="text-neutral-400 text-xs leading-relaxed font-light mb-4 flex-grow">For this project, we were tasked to make a film about the history of our chosen color from the book "Secret Lives of Colors". I chose the color Electric Blue, since blue is one of my favorite colors. Before I could get to work, I read the book and did additional research. I used After Effects for motion graphics and visual storytelling, and I used Microsoft Paint for digital assets.</p>
+                        <div class="flex flex-wrap gap-1.5 mt-auto">
+                            <span class="text-[9px] bg-neutral-900/40 border border-neutral-800/60 text-neutral-400 px-2 py-0.5 rounded">After Effects</span>
+                            <span class="text-[9px] bg-neutral-900/40 border border-neutral-800/60 text-neutral-400 px-2 py-0.5 rounded">Microsoft Paint</span>
+                        </div>
+                    </div>
+
+                    <div class="p-6 flex flex-col flex-grow border-b border-neutral-900/20">
+                        <span class="text-[9px] font-bold tracking-widest text-neutral-500 uppercase mb-1.5">2024</span>
+                        <h3 class="text-lg font-medium text-neutral-300 mb-2">Original Movie</h3>
+                        <iframe class="w-full h-full" src="https://www.youtube.com/embed/i-O9OVUp9aA" title="Secret Colors of Lives Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen=""></iframe>
+                        <p class="text-neutral-400 text-xs leading-relaxed font-light mb-4 flex-grow">For my Digital Media class, I was tasked to make an original movie. It's called The Essence of Art. What I did was make an animated film to highlight on what I'm technically capable of. I was originally going to animated everything in Maya, but couldn't due to technical limitations and time restraints. But in the video, it shows my own explanation of art and as you can see, it shows the art that I've previously done over the years, as well as animations. I used After Effectis for Motion Graphics &amp; Microsoft Paint for digital assets.</p>
+                        <div class="flex flex-wrap gap-1.5 mt-auto">
+                            <span class="text-[9px] bg-neutral-900/40 border border-neutral-800/60 text-neutral-400 px-2 py-0.5 rounded">After Effects</span>
+                            <span class="text-[9px] bg-neutral-900/40 border border-neutral-800/60 text-neutral-400 px-2 py-0.5 rounded">Microsoft Paint</span>
+                        </div>
+                    </div>
+
+                    <div class="p-6 flex flex-col flex-grow border-b border-neutral-900/20">
+                        <span class="text-[9px] font-bold tracking-widest text-neutral-500 uppercase mb-1.5">2024</span>
+                        <h3 class="text-lg font-medium text-neutral-300 mb-2">Smiley Face</h3>
+                        <img src="images/pettiford-a-smiley-face-v2.jpg" alt="image description">
+                        <p class="text-neutral-400 text-xs leading-relaxed font-light mb-4 flex-grow">For this project, we were tasked to make an original smiley face with a pun or greeting. I based mine on a music album cover for a song called Musik Mo by DJ Ron, which is packed with Jungle/Electric/Techno music. I also based it on the Solar System by making the half of it night time with a moon and dark side, while the other side is sunny and light, as well as vibrant. Around it are planets of the solar system.&nbsp; This is one of my favorite projects because I made something original that stands out that could be used for either a music cover album or video game asset or packaging.
+                        </p>
+                        <div class="flex flex-wrap gap-1.5 mt-auto">
+                            <span class="text-[9px] bg-neutral-900/40 border border-neutral-800/60 text-neutral-400 px-2 py-0.5 rounded">Adobe Illustrator</span>
+                        </div>
+                    </div>
+
+                    <div class="p-6 flex flex-col flex-grow border-b border-neutral-900/20">
+                        <span class="text-[9px] font-bold tracking-widest text-neutral-500 uppercase mb-1.5">2024</span>
+                        <h3 class="text-lg font-medium text-neutral-300 mb-2">Bubbles</h3>
+                        <img src="images/pettiforda-bubble-1.png" alt="image description">
+                        <p class="text-neutral-400 text-xs leading-relaxed font-light mb-4 flex-grow">For one of the next projects, we were tasked to choose anything whether it be a cartoon character, or anything and then make it out of bubbles. For this, I chose my most favorite video game character, Sonic the Hedgehog. This was one of the fun projects I have ever done because I did a great job replicating Sonic based on reference artwork.
+                        </p>
+                        <div class="flex flex-wrap gap-1.5 mt-auto">
+                            <span class="text-[9px] bg-neutral-900/40 border border-neutral-800/60 text-neutral-400 px-2 py-0.5 rounded">Adobe Photoshop</span>
+                        </div>
+                    </div>
+
+                    <div class="p-6 flex flex-col flex-grow border-b border-neutral-900/20">
+                        <span class="text-[9px] font-bold tracking-widest text-neutral-500 uppercase mb-1.5">2024</span>
+                        <h3 class="text-lg font-medium text-neutral-300 mb-2">Flower Vase
+                            <img src="images/apettiford-flower-renderview.jpg" alt="image description">
+                            <img src="images/apettiford-flower-rendercloseup.jpg" alt="image description">
+                        </h3>
+                        <p class="text-neutral-400 text-xs leading-relaxed font-light mb-4 flex-grow">This project was about making a Flower Vase. Basically what we had to do was choose some flowers to include in a vase and model them out. What I learned to was make meshes out of lines which created the stem. I learned how to make a flower petal by using a square, smoothing it out into a mesh and then adding edges and extruding it. Not to mention resizing it. I did the same thing for the core of the flower. Another thing I learned was "duplicate special" where I could choose how many meshes I wanted and then paste them. I even rotated them and aligned them to make a perfect flower. After I finished every flower, I took about a few screenshots. The front and the rear.</p>
+                        <div class="flex flex-wrap gap-1.5 mt-auto">
+                            <span class="text-[9px] bg-neutral-900/40 border border-neutral-800/60 text-neutral-400 px-2 py-0.5 rounded">Autodesk Maya</span>
+                        </div>
+                    </div>
+
+                    <div class="p-6 flex flex-col flex-grow">
+                        <span class="text-[9px] font-bold tracking-widest text-neutral-500 uppercase mb-1.5">2024</span>
+                        <h3 class="text-lg font-medium text-neutral-300 mb-2">Walking Eyeball Monster</h3>
+                        <img src="images/EyeMonsterSequence.gif" alt="image description">
+                        <p class="text-neutral-400 text-xs leading-relaxed font-light mb-4 flex-grow">This was the final project for the 3D Animation class I took at TCNJ. With this, we were tasked of making a Eyeball Monster run and jump inside a box. We were provided a Eyeball Monster, and for me personally, duplicated 3 more to make it stand out. I used everything in that class I learned to the test, and did my absolute best to make it stand out. Even though there's no sound in this one, I gave it squashy stretch effects as if it were some kind of cartoon. I rendered every frame in Maya, and then made the mp4 in Premiere Pro.</p>
+                        <div class="flex flex-wrap gap-1.5 mt-auto">
+                            <span class="text-[9px] bg-neutral-900/40 border border-neutral-800/60 text-neutral-400 px-2 py-0.5 rounded">Autodesk Maya</span>
+                            <span class="text-[9px] bg-neutral-900/40 border border-neutral-800/60 text-neutral-400 px-2 py-0.5 rounded">Adobe Premiere PRo</span>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <hr class="border-neutral-900/60 my-12">
+
+        <!-- PERSONAL WORK SECTION -->
+        <section class="mb-20">
+            <h1 class="text-5xl font-light tracking-wider text-neutral-200 mb-6">Personal Work</h1>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Sonic Card Block Structure -->
+                <div class="border border-neutral-900/40 bg-neutral-950/20 rounded-xl overflow-hidden backdrop-blur-sm flex flex-col">
+                    
+                    <!-- Resized and Constrained Image Box -->
+
+                    <div class="p-6 flex flex-col flex-grow">
+                        <span class="text-[9px] font-bold tracking-widest text-neutral-500 uppercase mb-1.5">2025</span>
+                        <h3 class="text-lg font-medium text-neutral-300 mb-2">Fanmade Sonic the Hedgehog Art</h3>
+                        <p class="text-neutral-400 text-xs leading-relaxed font-light mb-4 flex-grow">
+                            Though not a college project, this is something I did for fun. As a kid, I loved playing Sonic alot and in fact, am a Sonic fan. I took reference from two sources. This is based off of a manual artwork from a Sonic game "Knuckles Chaotix" and a sketch I did in 2019. So I combined those two together and recreated it digitally.
+                        </p>
+                        <div class="flex flex-wrap gap-1.5 mt-auto">
+                            <span class="text-[9px] bg-neutral-900/40 border border-neutral-800/60 text-neutral-400 px-2 py-0.5 rounded">Adobe Photoshop</span>
+                        </div>
+                    </div>
+
+                </div>
+                
+                <!-- Open slot for future personal project card -->
+                <div>
+                    <img src="images/mighty-chaotix-jp-manual-art-sonic-edition.png" alt="image description">
+                </div>
+            </div>
+        </section>
+<div class="p-6 flex flex-col flex-grow">
+    <span class="text-[9px] font-bold tracking-widest text-neutral-500 uppercase mb-1.5">2025</span>
+    <h3 class="text-lg font-medium text-neutral-300 mb-2">Smash Blender Animation</h3>
+    <p class="text-neutral-400 text-xs leading-relaxed font-light mb-4 flex-grow">
+        I was working on an animation mod for SSBU mods, since people on GameBanana and Smash Ultimate Modding Community have the ability to mod the game through custom hardware. So what I did here was import an animation into Blender, edited the Keyframes, baked and exported the animation, and put it into Smash Ultimate. After Blender, I imported it into a program called SSBH, which shows me what the animation will look like in game. It isn't intetionally glitchy. What you see on the face is the expressions layered on one another.</p>
+    
+    <div class="flex flex-col sm:flex-row gap-4 items-center justify-center mt-2 mb-4">
+        <img src="images/BlenderWIP.gif" alt="Blender WIP" class="w-full sm:w-1/2 h-48 md:h-64 object-cover border-neutral-900/40">
+        <img src="images/BlenderResults.gif" alt="Blender Results" class="w-full sm:w-1/2 h-48 md:h-64 object-cover rounded-lg border border-neutral-900/40">
+    </div>
+
+    <div class="flex flex-wrap gap-1.5 mt-auto">
+        <span class="text-[9px] bg-neutral-900/40 border border-neutral-800/60 text-neutral-400 px-2 py-0.5 rounded">Blender</span>
+    </div>
+</div>
+
+    </main>
+
+    <footer class="border-t border-neutral-900 bg-neutral-950/40 backdrop-blur-sm mt-20 text-neutral-600 text-[11px] font-medium py-10 relative z-20">
+        <div class="max-w-6xl mx-auto px-6">
+            <div class="flex items-center justify-start gap-4 mb-4">
+                <a href="https://www.linkedin.com/in/aaron-pettiford-3489a1343/" target="_blank" rel="noopener noreferrer" class="transform transition-transform duration-300 hover:scale-110 hover:opacity-90">
+                    <img src="images/LinkedIn_icon.png" alt="LinkedIn" class="h-10 w-10 object-contain rounded-md">
+                </a>
+                <a href="https://www.instagram.com/artbomb_x?igsh=MXMyaWtsOXFzd2ZwMA==&utm_source=qr" target="_blank" rel="noopener noreferrer" class="transform transition-transform duration-300 hover:scale-110 hover:opacity-90">
+                    <img src="images/Instagram_icon.png" alt="Instagram" class="h-10 w-10 object-contain rounded-md">
+                </a>
+            </div>
+            <div class="text-center w-full border-t border-neutral-900/30 pt-4">
+                © 2026 Aaron Pettiford
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const heroText = document.getElementById('hero-text');
+            
+            setTimeout(() => {
+                heroText.classList.remove('opacity-0');
+                heroText.classList.add('opacity-100');
+            }, 50);
+        });
+    </script>
+
+</body>
+</html>
